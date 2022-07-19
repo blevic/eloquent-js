@@ -1,5 +1,6 @@
-let counter = 1;
+let triangle_section = "#";
 
-while (counter < 8) {
-    console.log("#".repeat(counter++));
+while (triangle_section.length <= 7) {
+    console.log(triangle_section);
+    triangle_section += "#"
 }
