@@ -1,6 +1,6 @@
-let triangle_section = "#";
+let triangleSection = "#";
 
-while (triangle_section.length <= 7) {
-    console.log(triangle_section);
-    triangle_section += "#"
+while (triangleSection.length <= 7) {
+    console.log(triangleSection);
+    triangleSection += "#"
 }
