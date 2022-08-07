@@ -39,4 +39,6 @@ const box = {
   // → true
 
   box.unlock();
+
+  // content is an array because the getter returns the private _content array
   console.log(JSON.stringify(box, null, 4));
